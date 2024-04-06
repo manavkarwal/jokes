@@ -1,0 +1,37 @@
+/* Style for container */
+.container {
+    text-align: center; /* Align content in the center */
+    margin: 20px auto; /* Add some margin for spacing */
+    max-width: 600px; /* Limit the maximum width of the container */
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  /* Style for heading */
+  .container h1 {
+    color: #e0cccc; /* Set heading color */
+  }
+  
+  /* Style for API body section */
+  .api_body {
+    margin-top: 20px; /* Add margin at the top */
+    color: white;
+  }
+  
+  /* Style for fetch joke button */
+  #fetchJoke {
+    background-color: #106d6d; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    border-radius: 5px; /* Add border radius */
+  }
+  
+  /* Hover effect for fetch joke button */
+  #fetchJoke:hover {
+    background-color: #0056b3; /* Darken background color on hover */
+  }
+  
